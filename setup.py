@@ -1,8 +1,16 @@
 #!/usr/bin/env python
 
 '''
-Look at directory: /n/fs/nlp-asd/asd/asd/Projects/LGML/lgml/ner/rule_based_ner
-to see how packages should be structures
+Directory structure:
+.
+├── README.md
+├── setup.py
+└── src
+    ├── rule_based_ner
+    │   ├── evaluate_rules.py
+    │   ├── __init__.py
+    │   └── rules.py
+    └── rule_based_ner.egg-info
 '''
 
 from distutils.core import setup
