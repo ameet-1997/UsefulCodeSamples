@@ -1,0 +1,19 @@
+% Two figures side-by-side --------------------------------------------------------------------------------------------------------------
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\begin{figure}[h]
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Images/sing-d.png}
+%   \caption{Sing-D}\vspace{1em}
+\end{subfigure}\hfill
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Images/dual-d.png}
+%   \caption{Dual-D}
+\end{subfigure}
+\caption{Proposed Models \singd{} (left) and \duald{} (right). \textit{\singd{}} uses a single discriminator which feeds itself negative samples, and \textit{\duald{}} feeds negative samples to each other}
+\label{fig:models}
+\end{figure}
