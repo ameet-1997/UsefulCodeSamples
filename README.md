@@ -11,3 +11,7 @@ Useful code samples that can be used as skeletal code
 
 ### Package related
 1. `setup.py` - For creating packages
+
+### Latex
+1. `latex_figures.tex` - Figures in Latex
+1. `latex_comments.tex` - Inline comments with Latex
