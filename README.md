@@ -18,3 +18,4 @@ Useful code samples that can be used as skeletal code
 
 ### Bash
 1. `useful_commands.sh` - Useful bash commands
+1. `experiment.slurm` - Slurm file for PNLP
