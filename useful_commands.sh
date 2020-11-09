@@ -15,3 +15,6 @@ cat original.txt | awk 'BEGIN {srand()} !/^$/ { if (rand() <= .01) print $0}' > 
 
 # Shuffle and split
 shuf infile | csplit - $(( $(wc -l < infile) * 9/10 + 1))
+
+# Replace all occurrences of a word in a file
+sed -i 's/contradictory/contradiction/g' file.txt
