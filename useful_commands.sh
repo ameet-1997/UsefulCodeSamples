@@ -18,3 +18,6 @@ shuf infile | csplit - $(( $(wc -l < infile) * 9/10 + 1))
 
 # Replace all occurrences of a word in a file
 sed -i 's/contradictory/contradiction/g' file.txt
+
+# View tqdm output of log files. This command will play out the progress bars
+tail log.out
