@@ -15,6 +15,7 @@ Useful code samples that can be used as skeletal code
 ### Latex
 1. `latex_figures.tex` - Figures in Latex
 1. `latex_comments.tex` - Inline comments with Latex
+1. `latex_tables.tex` - Nice Latex table
 
 ### Bash
 1. `useful_commands.sh` - Useful bash commands
