@@ -21,3 +21,13 @@ tmux rename-session -t 0 diff_session_name
 
 # List all sessions
 tmux ls
+
+###### Additional commands ######
+
+### Windows ###
+# Renaming a window
+C-b ,
+# Moving to a specific window
+C-b #WindowNumber
+# Delete a window
+C-b &
