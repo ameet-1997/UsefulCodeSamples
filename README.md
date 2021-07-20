@@ -11,6 +11,7 @@ Useful code samples that can be used as skeletal code
 
 ### Package related
 1. `setup.py` - For creating packages
+2. `conda.sh` - Useful `conda` commands
 
 ### Latex
 1. `latex_figures.tex` - Figures in Latex
