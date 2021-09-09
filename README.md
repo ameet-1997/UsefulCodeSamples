@@ -5,6 +5,7 @@ Useful code samples that can be used as skeletal code
 ### Plotting
 1. [`matplotlib.py`](plotting/matplotlib.py) - Simple scatterplot using matplotlib and seaborn
 1. [`smooth_loss.py`](plotting/smooth_loss.py) - Exponential moving window average loss
+1. [`tsne.py`](plotting/tsne.py) - PCA + TSNE plotting
 
 ### Arguments
 1. [`argparse.py`](argparse/argparse.py) - Using simple functionality of argparse
