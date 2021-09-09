@@ -24,3 +24,4 @@ Useful code samples that can be used as skeletal code
 1. [`experiment.slurm`](bash/experiment.slurm) - Slurm file for PNLP
 1. [`jupyter.slurm`](bash/jupyter.slurm) - Slurm file for running jupyter notebooks on PNLP
 1. [`tmux.sh`](bash/tmux.sh) - Bash commands for tmux
+1. [`pnlp_cluster.sh`](bash/pnlp_cluster.sh) - Useful commands for cluster usage
