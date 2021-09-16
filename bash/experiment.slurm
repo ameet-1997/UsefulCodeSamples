@@ -20,7 +20,7 @@
 #SBATCH -n 1 #tasks
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=70G
-#SBATCH --time=2-0:00:00    # Run for 7 days
+#SBATCH --time=7-0:00:00    # Run for 7 days
 #SBATCH --gres=gpu:1
 #SBATCH --nodelist=node905
 
