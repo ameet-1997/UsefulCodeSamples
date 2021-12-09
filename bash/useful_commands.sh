@@ -21,3 +21,6 @@ sed -i 's/contradictory/contradiction/g' file.txt
 
 # View tqdm output of log files. This command will play out the progress bars
 tail log.out
+
+# Anonymize code by replacing words (case insensitive)
+find . -type f -exec sed -i '' -e 's/ameet/xxx/gI' {} \;
