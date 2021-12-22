@@ -27,3 +27,9 @@ Useful code samples that can be used as skeletal code
 1. [`tmux.sh`](bash/tmux.sh) - Bash commands for tmux
 1. [`pnlp_cluster.sh`](bash/pnlp_cluster.sh) - Useful commands for cluster usage
 1. [`git.sh`](bash/git.sh) - Git commands
+
+### Weights and biases
+1. [`credentials.sh`](wandb/credentials.sh) - Storing credentials as environment variables
+1. [`sweep.yaml`](wandb/sweep.yaml) - Configuration file for a sweep
+1. [`sweep.sh`](wandb/sweep.sh) - Instructions for running a sweep
+1. [`slurm_sweep.slurm`](wandb/slurm_sweep.slurm) - Slurm file for running a sweep
