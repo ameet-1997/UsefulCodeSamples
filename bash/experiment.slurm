@@ -23,6 +23,7 @@
 #SBATCH --time=7-0:00:00    # Run for 7 days
 #SBATCH --gres=gpu:1
 #SBATCH --nodelist=node905
+#SBATCH --exclude=node718,node901,node902
 
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=asd@cs.princeton.edu
