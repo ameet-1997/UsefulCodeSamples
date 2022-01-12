@@ -27,6 +27,7 @@ Useful code samples that can be used as skeletal code
 1. [`tmux.sh`](bash/tmux.sh) - Bash commands for tmux
 1. [`pnlp_cluster.sh`](bash/pnlp_cluster.sh) - Useful commands for cluster usage
 1. [`git.sh`](bash/git.sh) - Git commands
+1. [`regex.sh`](bash/regex.sh) - Regex expressions
 
 ### Weights and biases
 1. [`credentials.sh`](wandb/credentials.sh) - Storing credentials as environment variables
