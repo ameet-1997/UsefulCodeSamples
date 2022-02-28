@@ -28,6 +28,7 @@ rects4 = ax.bar(x + 1.5 * width, transliteration, width, label='Transliteration'
 ax.set_xlabel('Different metrics')
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
+ax.set_title("Captions")
 ax.legend()
 
 ax.set_ylim(top=110, bottom=-5)
