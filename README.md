@@ -19,6 +19,8 @@ Useful code samples that can be used as skeletal code
 1. [`latex_figures.tex`](latex/latex_figures.tex) - Figures in Latex
 1. [`latex_comments.tex`](latex/latex_comments.tex) - Inline comments with Latex
 1. [`latex_tables.tex`](latex/latex_tables.tex) - Nice Latex table
+1. [`latex_format.zip`](latex/latex_format.zip) - File structure for project submissions
+1. [`latex_proposal_format`](https://github.com/ameet-1997/Ideas)
 
 ### Bash
 1. [`useful_commands.sh`](bash/useful_commands.sh) - Useful bash commands
