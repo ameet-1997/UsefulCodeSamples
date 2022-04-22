@@ -6,3 +6,6 @@ conda env create -f environment.yml
 
 # Store environment
 conda env export > environment.yml
+
+# Clone an environment
+conda create --name myclone --clone myenv
