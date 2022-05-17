@@ -1,0 +1,10 @@
+% Example with multiple options that can be used with itemize
+
+\usepackage{enumitem}
+
+\begin{enumerate}[leftmargin=*,itemsep=0em,label=(\scenarioenum{S}{{\arabic*}})]
+    \item \textbf{Generalization to unseen descriptions:} \nt{We test the model with new unseen descriptions of classes it has previously seen during training.}
+    \item \textbf{Generalization to unseen classes:} We test the model with unseen classes (specified using unseen descriptions) -- which is the common zero-shot learning setup~\cite{akata2015label,zhang2017learning}.
+    \item \textbf{Generalization to unseen superclasses:} We test the model with unseen superclasses, which are at a higher level of conceptual granularity than the classes seen during training, which tests the model's understanding of class hierarchies and relationships between classes.
+    \item \textbf{Generalization to unseen tasks:} \nt{We test task transfer by evaluating a \semsup{} model on a new task with a similar input domain (e.g., news articles), but a completely new set of classes.}
+\end{enumerate}
