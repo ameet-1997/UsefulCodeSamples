@@ -37,3 +37,6 @@ Useful code samples that can be used as skeletal code
 1. [`sweep.yaml`](wandb/sweep.yaml) - Configuration file for a sweep
 1. [`sweep.sh`](wandb/sweep.sh) - Instructions for running a sweep
 1. [`slurm_sweep.slurm`](wandb/slurm_sweep.slurm) - Slurm file for running a sweep
+
+### Transformers
+1. [`transformers`](transformers/) - Customizing HuggingFace Transformers
