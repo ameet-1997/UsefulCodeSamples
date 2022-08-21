@@ -22,6 +22,7 @@ Useful code samples that can be used as skeletal code
 1. [`latex_format.zip`](latex/latex_format.zip) - File structure for project submissions
 1. [`latex_proposal_format`](https://github.com/ameet-1997/Ideas)
 1. [`latex_itemize.tex`](latex/latex_itemize.tex) - Latex itemize with multiple options
+1. [`latex_main.tex`](latex/latex_main.tex) - The main file for LaTeX projects
 
 ### Bash
 1. [`useful_commands.sh`](bash/useful_commands.sh) - Useful bash commands
