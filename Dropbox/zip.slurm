@@ -26,8 +26,7 @@
 #SBATCH --mail-user=asd@cs.princeton.edu
 
 # Submit jobs
-# srun python run_attention_initialization.py   --train_data_file eo_data/all.txt   --output_dir output_files/EsperBERTo-small-v1-mlm  --model_type roberta  --mlm  --config_name ./EsperBERTo  --tokenizer_name ./EsperBERTo  --do_train  --learning_rate 1e-4  --num_train_epochs 10  --save_total_limit 20  --save_steps 2000  --per_gpu_train_batch_size 1  --seed $SEED --overwrite_output_dir --alpha 1.0 &
-srun zip -r /n/fs/nlp-asd/asd/asd/multilingual_cloud_data.zip /n/fs/nlp-asd/asd/asd/multilingual_cloud_data &
+srun zip -r /path/to/zip/file.zip /path/to/folder/being/zipped &
 
 wait;
 
