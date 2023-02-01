@@ -26,8 +26,7 @@
 #SBATCH --mail-user=asd@cs.princeton.edu
 
 # Submit jobs
-# srun ./dropbox_uploader.sh upload gcloud_model_files.zip /bert_attention/ &
-srun ./dropbox_uploader.sh upload /n/fs/nlp-asd/asd/asd/multilingual_cloud_data.zip /Multilingual_Google_Storage/ &
+srun ./dropbox_uploader.sh upload /path/to/zip/file.zip /Dropbox_folder/ &
 
 wait;
 
