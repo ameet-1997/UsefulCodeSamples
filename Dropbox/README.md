@@ -1,3 +1,10 @@
+# PNLP edit
+1. The first time you are running `./dropbox_uploader.sh`, do not use slurm, but directly run it in the shell. This will allow you to authenticate and tie it to your Princeton DropBox account.
+1. Use `zip.slurm` to zip the folder you want to compress.
+1. Use `dropbox.slurm` to upload it to DropBox.
+1. Change the commands in both the files to match your folders.
+1. **** Be careful, I have faced problems with very large zip files (over 100 GB). So I recommend chunking your folders into smaller sizes and uploading it. This is hacky, feel free to write a script to auto-chunk ****
+
 # Dropbox Uploader
 
 Dropbox Uploader is a **BASH** script which can be used to upload, download, delete, list files (and more!) from **Dropbox**, an online file sharing, synchronization and backup service. 
