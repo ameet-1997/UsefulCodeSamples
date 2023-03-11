@@ -1,0 +1,42 @@
+%%%%% Packages %%%%%
+\usepackage{amsmath,amsfonts}
+\usepackage{booktabs,arydshln}
+\usepackage{multirow}
+\usepackage{ulem}
+\usepackage{pifont}
+\usepackage{relsize}
+\usepackage{enumitem}
+\usepackage{graphicx}
+% \usepackage{minted}
+% \usepackage[dvipsnames]{xcolor}
+
+
+%%%%% Commands %%%%%
+
+%%%%%%%% Command for dashed lines %%%%%%%%
+\makeatletter
+\def\adl@drawiv#1#2#3{%
+        \hskip.5\tabcolsep
+        \xleaders#3{#2.5\@tempdimb #1{1}#2.5\@tempdimb}%
+                #2\z@ plus1fil minus1fil\relax
+        \hskip.5\tabcolsep}
+\newcommand{\cdashlinelr}[1]{%
+  \noalign{\vskip\aboverulesep
+           \global\let\@dashdrawstore\adl@draw
+           \global\let\adl@draw\adl@drawiv}
+  \cdashline{#1}
+  \noalign{\global\let\adl@draw\@dashdrawstore
+           \vskip\belowrulesep}}
+\makeatother
+
+
+%%%%%%%% Review %%%%%%%%
+\newcommand{\todo}[1]{\textcolor{red}{[\textcolor{blue}{TODO:} #1]}}
+\newcommand{\karthik}[1]{\textcolor{blue}{[Karthik: #1]}}
+\newcommand{\ameet}[1]{\textcolor{cyan}{[Ameet: #1]}}
+\newcommand{\cmmnt}[1]{\ignorespaces}
+
+%%%%%%%% Reference %%%%%%%%
+\newcommand{\secref}[1]{Section~\ref{#1}}
+\newcommand{\symbolsecref}[1]{($\S$~\ref{#1})}
+\newcommand{\tableref}[1]{Table~\ref{#1}}
